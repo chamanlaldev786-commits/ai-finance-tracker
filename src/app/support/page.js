@@ -10,12 +10,12 @@ export default function SupportPage() {
       </h1>
 
       {/* INTRO */}
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-white leading-relaxed">
         Need help? Contact our support team at:
       </p>
 
       {/* CONTACT LIST */}
-      <ul className="text-gray-700 list-disc list-inside space-y-2">
+      <ul className="text-white list-disc list-inside space-y-2">
         <li>
           Email:{" "}
           <a
@@ -31,10 +31,10 @@ export default function SupportPage() {
             href="tel:+1234567890"
             className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-medium hover:underline transition"
           >
-            +1 234 567 890
+            03403943171
           </a>
         </li>
-        <li>Office Location: 123 AI Street, FinTech City, 45678</li>
+        <li>Office Location: karachi AI Street, FinTech City, karachi</li>
       </ul>
 
       {/* RESPONSE TIME INFO */}

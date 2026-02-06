@@ -23,16 +23,18 @@ export default function RootLayout({ children }) {
           <Header />
 
           {/* Layout wrapper: Sidebar + Main content */}
-          <div className="flex min-h-screen">
-            {/* Sidebar */}
-            <Sidebar className="hidden md:flex" />
-
-            {/* Main content */}
-            <main className="flex-1 p-6 md:p-12 flex flex-col gap-12">
-              {children}
-            </main>
+          {/* Mobile view ke liye burger menu se khulne wala sidebar */}
+          <div className="md:hidden p-4 fixed top-0 left-0 z-50">
+            <Sheet>
+              <SheetTrigger> ☰ </SheetTrigger> {/* Yahan aap Menu Icon laga sakte hain */}
+              <SheetContent side="left" className="p-0 w-72">
+                <Sidebar />
+              </SheetContent>
+            </Sheet>
           </div>
 
+          {/* Desktop view ke liye wahi purana sidebar jo aapki image mein hai */}
+          <Sidebar className="hidden md:flex" />
           {/* Footer (client component) */}
           <Footer />
 

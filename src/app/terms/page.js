@@ -10,11 +10,11 @@ export default function TermsPage() {
       </h1>
 
       {/* TERMS INFO */}
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-white leading-relaxed">
         By accessing or using AI Finance Tracker, you agree to comply with these terms. Misuse of the platform, attempting to bypass security, or violating applicable laws may result in termination of access.
       </p>
 
-      <p className="text-gray-700 leading-relaxed">
+      <p className="text-white leading-relaxed">
         We reserve the right to update the terms at any time. Continued use implies acceptance of the updated terms.
       </p>
 
